@@ -98,4 +98,20 @@ struct Rounded: Shape {
     }
 }
 
+struct msgType: Identifiable {
+    var id: Int
+    var msg: String
+    var time: String
+    var name: String
+    var msgs: String
+    var pic: String
+}
 
+
+// a sample data....
+
+var msgs: [msgType] = [
+    msgType(id: 0, msg: "New Album is going to be Released!!", time: "14:32", name: "Taylor", msgs: "2", pic: "p0"),
+    msgType(id: 0, msg: "Hi, This is Steve Rogers", time: "14:35", name: "Steve", msgs: "2", pic: "p1"),
+    msgType(id: 0, msg: "New tutorial from kavostf", time: "14:39", name: "kavsoft", msgs: "3", pic: "p2"),
+]
